@@ -1,0 +1,20 @@
+{
+  "name": "marvelassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoganHussung/marvelassignment.git"
+  },
+  "keywords": [],
+  "author": "Logan Hussung <hussu072@umn.edu> (http://medium.com/@hussu072)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LoganHussung/marvelassignment/issues"
+  },
+  "homepage": "https://github.com/LoganHussung/marvelassignment#readme"
+}
