@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Keelhauled BB';
+  font-style: normal;
+  font-weight: bold;
+  src: url('KeelhauledBBBold.eot?#iefix') format('embedded-opentype'),
+  url('KeelhauledBBBold.woff2') format('woff2'),
+  url('KeelhauledBBBold.woff') format('woff'),
+  url('KeelhauledBBBold.ttf') format('truetype'),
+  url('KeelhauledBBBold.svg#KeelhauledBBBold') format('svg');
+  src: url('KeelhauledBBBold.eot');
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.heroes {
+  padding: 0;
+}
+.header img {
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 100%;
+}
+header {
+  text-align: center;
+}
+.search {
+  margin: 20px 0;
+  text-align: center;
+}
+.search input {
+  background-color: lightgrey;
+  outline-style: none;
+  padding: 10px 20px;
+}
+
+#heroSelect {
+  background-color: red;
+  border-radius: 5px;
+  outline-style: none;
+  padding: 10px;
+}
+
+.search button:active {
+  background-color: grey;
+  border-radius: 5px;
+  outline-style: none;
+  padding: 10px;
+}
+
+.groups {
+  background-image: url('wood.jpg');
+  border: 10px solid #00688B;
+  min-height: 10vh;
+  padding: 0;
+  width: 100%;
+}
+
+.subgroup {
+  align-content: center;
+  background-color: #A6CAFE;
+  border: 10px solid #00688B;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.9);
+  height: 600px;
+  margin: 20px 0;
+  opacity: .7;
+  transition: .3s;
+}
+.subgroup:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
+  opacity: 1;
+}
+.subgroup:focus {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.5);
+  opacity: 1;
+}
+
+.subgroup img {
+  margin-bottom: 10px;
+  max-height: 200px;
+  outline-color: white;
+  outline-style: outset;
+  width: 100%;
+}
+
+.subgroup h2 {
+  font-family: 'Keelhauled BB';
+  font-weight: bolder;
+  text-align: center;
+}
+
+.subgroup h6 {
+  text-align: center;
+}
+.subgroup p {
+  background-color: whitesmoke;
+  border-style: ridge;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  text-align: center;
+}
